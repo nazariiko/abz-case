@@ -1,0 +1,38 @@
+.tooltip-main-text {
+  white-space: nowrap;
+}
+
+.tooltip-wrapper {
+  max-width: 100%;
+  position: relative;
+
+  &__overflowed {
+    .tooltip-main-text {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &:hover {
+    .tooltip-text-container {
+      display: block;
+    }
+  }
+}
+
+.tooltip-text-container {
+  padding: 3px 16px;
+  background: rgba(0, 0, 0, 0.87);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: -40px;
+  left: 50px;
+  display: none;
+  white-space: nowrap;
+}

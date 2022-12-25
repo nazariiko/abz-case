@@ -1,0 +1,15 @@
+.wrapper {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.user-image {
+  width: 70px;
+  border-radius: 35px;
+  margin-bottom: 20px;
+}

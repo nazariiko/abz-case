@@ -1,0 +1,134 @@
+.sign-up-form-container {
+
+}
+
+.form-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.phone-field {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    position: relative;
+    left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7E7E7E;
+    margin-top: 4px;
+  }
+}
+
+.select-position-container {
+  width: 380px;
+  margin-bottom: 47px;
+
+  h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 11px;
+  }
+}
+
+.positions-radio-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+
+  label {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  input {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.upload-photo-container {
+  width: 380px;
+  display: flex;
+  height: 54px;
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 50px;
+
+  &__error {
+    border: 2px solid #CB3D40 !important;
+
+    .upload-photo-button {
+      border: 2px solid #CB3D40 !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-bottom: none !important;
+    }
+  }
+}
+
+.upload-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  opacity: 0;
+}
+
+.upload-photo-button {
+  height: 100%;
+  width: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+  border: 1px solid rgba(0, 0, 0, 0.87);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.upload-photo-value-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7E7E7E;
+}
+
+.upload-image-error-msg {
+  position: absolute;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #CB3D40;
+  left: 10px;
+  bottom: -20px;
+}
